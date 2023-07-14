@@ -4,8 +4,8 @@ import { ethers } from 'ethers'
 import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json'
 import Token from './artifacts/contracts/Token.sol/Token.json'
 
-const greeterAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
-const tokenAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+const greeterAddress = "0x6b23BCA390051f76db57EC33C45eC9B0977E4D8a"
+const tokenAddress = "0x5a786A140EEC9FF1774F50d3e3764A3EBD36b4a8"
 
 function App() {
   const [greeting, setGreetingValue] = useState()
